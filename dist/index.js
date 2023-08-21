@@ -1,7 +1,6 @@
 import express from "express";
 import bookRouter from "./routes/search.js";
 import { loggerMiddleware } from "./middleware/book.js";
-dotenv.config();
 const app = express();
 const PORT = 5000;
 app.use(express.json());
